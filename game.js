@@ -9,7 +9,7 @@ let acceptingAnswers = true;
 let score = 100;
 let questionCounter = 0;
 let gameQuestions = [];
-const maximalQuestions = 4;
+const maximalQuestions = 5;
 
 let questions = [
   {
@@ -45,6 +45,15 @@ let questions = [
     choice2: "Svorje",
     choice3: "Sverige",
     choice4: "Sweden",
+    answer: 3,
+  },
+
+  {
+    question: "Where can you get the best Semlor in Sweden??",
+    choice1: "Bengans Bageri",
+    choice2: "Cattis Café",
+    choice3: "Selmas Semlor",
+    choice4: "Tures Tårtor",
     answer: 3,
   },
 ];
